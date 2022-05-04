@@ -47,9 +47,15 @@ body {
   }
 }
 
-.card-container {
-  margin: 2rem;
+.card-container_body {
+  //margin: 2rem;
   background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.card-bag {
+  background-color: #fff;
+  margin-left: 2rem;
 }
 
 .card-title {
@@ -62,6 +68,10 @@ body {
 
   & a {
     text-decoration: none;
+    background-color: #fff;
+  }
+  & .badge {
+    background-color: #fff;
   }
 }
 
@@ -70,12 +80,16 @@ body {
 }
 
 .card-end {
+  background-color: #fff;
+
   & a {
     text-decoration: none;
+    background-color: #fff;
   }
 
   & span {
     font-size: 14px;
+    background-color: #fff;
   }
 
   & p {
@@ -83,11 +97,23 @@ body {
     font-size: 12px;
   }
 
-  & a .btn {
+  & .btn {
     background-color: #d6d6d7;
+  }
+
+  &-button {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+      background-color: #fff;
+    }
   }
 }
 
+/* SASS Marco */
 .offcanvas-start,
 .navbar-content {
   width: 90%;
@@ -122,6 +148,10 @@ body {
   border-radius: Max(0px, Min($radius, calc((100vw - 4px - 100%) * 9999))) /
     $radius;
   padding: 1rem;
+}
+
+.nav-link {
+  color: rgb(64, 64, 64) !important;
 }
 
 .brand__link:link {
@@ -182,6 +212,59 @@ body {
   }
 }
 
+/* SASS Lalo */
+
+.card-container {
+  width: auto; //750 px;
+  flex-direction: column;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px black;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: center;
+  //align-items: center;
+}
+
+.image-container {
+  width: 10rem;
+}
+
+.image-container img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+}
+
+.text-container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tittle {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.biographyn {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
 @media (max-width: 767px) {
   .offcanvas {
     width: 90%;
@@ -195,29 +278,21 @@ body {
 }
 
 @media (min-width: 768px) {
-  /*.offcanvas-collapse {
-    position: fixed;
-    top: 56px;
-    bottom: 0;
-    right: 100%;
-    width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    overflow-y: auto;
-    visibility: hidden;
-    background-color: #343a40;
-    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  }
-
-  .offcanvas-collapse.open {
-    visibility: visible;
-    transform: translateX(100%);
-  }*/
   .offcanvas-container {
     display: none;
   }
 
   .navbar-container {
     display: flex;
+  }
+
+  .navbar__account {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navbar__account {
+    margin-right: 0.5rem;
   }
 }
