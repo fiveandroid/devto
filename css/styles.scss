@@ -40,9 +40,14 @@ $oneRem: 1rem;
   }
 }
 
-.card-container {
+.card-container_body {
   margin: 2rem;
   background-color: #fff;
+}
+
+.card-bag {
+    background-color: #fff;
+    margin-left: 2rem;
 }
 
 .card-title {
@@ -63,6 +68,8 @@ $oneRem: 1rem;
 }
 
 .card-end {
+  background-color: #fff;
+  
   & a {
     text-decoration: none;
   }
@@ -135,16 +142,18 @@ $oneRem: 1rem;
 }
 
 
-#seccion lalo 
-
+// seccion lalo 
+/*
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+*/
+
 .card-container {
-  width: 750 px;
+  width: auto; //750 px;
   flex-direction: column;
   height: auto;
   border-radius: 10px;
@@ -153,7 +162,7 @@ $oneRem: 1rem;
   margin: auto;
   margin-top: 100px;
   justify-content: center;
-  align-items: center;
+  //align-items: center;
 }
 
 .image-container {
