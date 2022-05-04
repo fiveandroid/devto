@@ -1,10 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #efeded;
+}
+
+.avatar {
+  background-color: #fff;
+}
+
+.avatar .avatar-img {
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+}
+
+.avatar .avatar-labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.avatar .avatar-name {
+  font-size: 14px;
+  margin: 0;
+  margin-left: 0.5rem;
+  background-color: #fff;
+}
+
+.avatar .avatar-date {
+  font-size: 12px;
+  margin: 0;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+}
+
+.card-container {
+  margin: 2rem;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 30px;
+  background-color: #fff;
+}
+
+.card-text {
+  background-color: #fff;
+}
+
+.card-text a {
+  text-decoration: none;
+}
+
+.card-body {
+  background-color: #fff;
+}
+
+.card-end a {
+  text-decoration: none;
+}
+
+.card-end span {
+  font-size: 14px;
+}
+
+.card-end p {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.card-end a .btn {
+  background-color: #d6d6d7;
+}
+
 .navbar-container {
   max-width: 300px;
   height: 100%;
 }
 
 .navbar h2 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
   line-height: 1.25;
   font-size: 1.125rem;
@@ -12,15 +97,19 @@
 
 .btn-close,
 .networks-icon {
-  -webkit-filter: brightness(0) saturate(100%) invert(9%) sepia(5%) saturate(6%) hue-rotate(12deg) brightness(90%) contrast(85%);
-          filter: brightness(0) saturate(100%) invert(9%) sepia(5%) saturate(6%) hue-rotate(12deg) brightness(90%) contrast(85%);
+  -webkit-filter: brightness(0) saturate(100%) invert(9%) sepia(5%) saturate(6%)
+    hue-rotate(12deg) brightness(90%) contrast(85%);
+  filter: brightness(0) saturate(100%) invert(9%) sepia(5%) saturate(6%)
+    hue-rotate(12deg) brightness(90%) contrast(85%);
   opacity: 1;
 }
 
 .btn-close:hover {
   background-color: rgba(59, 73, 223, 0.1) !important;
-  -webkit-filter: brightness(0) saturate(100%) invert(13%) sepia(94%) saturate(3514%) hue-rotate(234deg) brightness(91%) contrast(82%) !important;
-          filter: brightness(0) saturate(100%) invert(13%) sepia(94%) saturate(3514%) hue-rotate(234deg) brightness(91%) contrast(82%) !important;
+  -webkit-filter: brightness(0) saturate(100%) invert(13%) sepia(94%)
+    saturate(3514%) hue-rotate(234deg) brightness(91%) contrast(82%) !important;
+  filter: brightness(0) saturate(100%) invert(13%) sepia(94%) saturate(3514%)
+    hue-rotate(234deg) brightness(91%) contrast(82%) !important;
   opacity: 1;
 }
 
@@ -30,11 +119,11 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0.5rem;
 }
 
