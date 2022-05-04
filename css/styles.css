@@ -1,0 +1,54 @@
+.navbar-container {
+  max-width: 300px;
+  height: 100%;
+}
+
+.navbar h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 700;
+  line-height: 1.25;
+  font-size: 1.125rem;
+}
+
+.btn-close,
+.networks-icon {
+  -webkit-filter: brightness(0) saturate(100%) invert(9%) sepia(5%) saturate(6%) hue-rotate(12deg) brightness(90%) contrast(85%);
+          filter: brightness(0) saturate(100%) invert(9%) sepia(5%) saturate(6%) hue-rotate(12deg) brightness(90%) contrast(85%);
+  opacity: 1;
+}
+
+.btn-close:hover {
+  background-color: rgba(59, 73, 223, 0.1) !important;
+  -webkit-filter: brightness(0) saturate(100%) invert(13%) sepia(94%) saturate(3514%) hue-rotate(234deg) brightness(91%) contrast(82%) !important;
+          filter: brightness(0) saturate(100%) invert(13%) sepia(94%) saturate(3514%) hue-rotate(234deg) brightness(91%) contrast(82%) !important;
+  opacity: 1;
+}
+
+.list-unstyled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.list-unstyled li {
+  display: block;
+  float: left;
+}
+
+.nav-item {
+  padding: 0.5rem 1rem;
+}
+
+.nav-item a img {
+  margin-right: 0.5rem;
+  margin-left: -0.5rem;
+}
+/*# sourceMappingURL=styles.css.map */
