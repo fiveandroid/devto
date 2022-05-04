@@ -48,6 +48,11 @@
   background-color: #fff;
 }
 
+.card-bag {
+  background-color: #fff;
+  margin-left: 2rem;
+}
+
 .card-title {
   font-size: 30px;
   background-color: #fff;
@@ -62,6 +67,19 @@
 }
 
 .card-body {
+  background-color: #fff;
+}
+
+.card-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #fff;
 }
 

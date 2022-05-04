@@ -46,6 +46,11 @@
     
 }
 
+.card-bag {
+    background-color: #fff;
+    margin-left: 2rem;
+}
+
 .card-title {
     font-size: 30px;
     background-color: #fff;
@@ -67,6 +72,10 @@
 }
 
 .card-end {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #fff;
 
     & a {
 
