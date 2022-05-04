@@ -1,91 +1,135 @@
+$mediumRem: 0.5rem;
+$oneRem: 1rem;
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #efeded;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #efeded;
 }
 
 .avatar {
+  background-color: #fff;
 
+  & .avatar-img {
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
     background-color: #fff;
+  }
 
-    & .avatar-img{
-        border-radius:100%; 
-        width:2rem; 
-        height:2rem;
-        background-color: #fff;
-    }
+  & .avatar-labels {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
 
-    & .avatar-labels {
-        
-        display: flex;
-        flex-direction:  column;
-        background-color: #fff;
+  & .avatar-name {
+    font-size: 14px;
+    margin: 0;
+    margin-left: 0.5rem;
+    background-color: #fff;
+  }
 
-    }
-
-    & .avatar-name{
-       font-size: 14px;
-       margin: 0;
-       margin-left: 0.5rem;
-       background-color: #fff;
-    }
-
-    & .avatar-date{
-        font-size: 12px;
-        margin: 0;
-        margin-left: 0.5rem;
-        margin-bottom: 0.5rem;
-        background-color: #fff;
-     }
+  & .avatar-date {
+    font-size: 12px;
+    margin: 0;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #fff;
+  }
 }
 
 .card-container {
-    margin: 2rem;
-    background-color: #fff;
-    
+  margin: 2rem;
+  background-color: #fff;
 }
 
 .card-title {
-    font-size: 30px;
-    background-color: #fff;
+  font-size: 30px;
+  background-color: #fff;
 }
 
 .card-text {
-    background-color: #fff;
+  background-color: #fff;
 
-    & a {
-
-        text-decoration: none;
-        
-
-    }
+  & a {
+    text-decoration: none;
+  }
 }
 
 .card-body {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .card-end {
+  & a {
+    text-decoration: none;
+  }
 
-    & a {
+  & span {
+    font-size: 14px;
+  }
 
-        text-decoration: none;
+  & p {
+    display: inline-block;
+    font-size: 12px;
+  }
 
+  & a .btn {
+    background-color: #d6d6d7;
+  }
+}
+
+.navbar-container {
+  max-width: 300px;
+  height: 100%;
+}
+
+.navbar {
+  h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    font-weight: 700;
+    line-height: 1.25;
+    font-size: 1.125rem;
+  }
+}
+
+.btn-close,
+.networks-icon {
+  filter: brightness(0) saturate(100%) invert(9%) sepia(5%) saturate(6%)
+    hue-rotate(12deg) brightness(90%) contrast(85%);
+  opacity: 1;
+}
+
+.btn-close:hover {
+  background-color: rgba(59, 73, 223, 0.1) !important;
+  filter: brightness(0) saturate(100%) invert(13%) sepia(94%) saturate(3514%)
+    hue-rotate(234deg) brightness(91%) contrast(82%) !important;
+  opacity: 1;
+}
+
+.list-unstyled {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+
+  li {
+    display: block;
+    float: left;
+    padding: 0.5rem;
+  }
+}
+
+.nav-item {
+  padding: $mediumRem $oneRem;
+  a {
+    img {
+      margin-right: $mediumRem;
+      margin-left: $mediumRem * -1;
     }
-
-    
-
-    & span {
-        font-size: 14px;
-    }
-
-    & p {
-        display: inline-block;
-        font-size: 12px;
-    }
-
-    & a .btn{
-        background-color: #d6d6d7;
-    }
+  }
 }
