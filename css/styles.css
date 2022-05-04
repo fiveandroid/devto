@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #efeded;
+}
+
+.avatar {
+  background-color: #fff;
+}
+
+.avatar .avatar-img {
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+}
+
+.avatar .avatar-labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+}
+
+.avatar .avatar-name {
+  font-size: 14px;
+  margin: 0;
+  margin-left: 0.5rem;
+  background-color: #fff;
+}
+
+.avatar .avatar-date {
+  font-size: 12px;
+  margin: 0;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+}
+
+.card-container {
+  margin: 2rem;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 30px;
+  background-color: #fff;
+}
+
+.card-text {
+  background-color: #fff;
+}
+
+.card-text a {
+  text-decoration: none;
+}
+
+.card-body {
+  background-color: #fff;
+}
+
+.card-end a {
+  text-decoration: none;
+}
+
+.card-end span {
+  font-size: 14px;
+}
+
+.card-end p {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.card-end a .btn {
+  background-color: #d6d6d7;
+}
+/*# sourceMappingURL=styles.css.map */
