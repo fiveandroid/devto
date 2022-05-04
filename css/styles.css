@@ -44,8 +44,8 @@
 }
 
 .card-container_body {
-  margin: 2rem;
   background-color: #fff;
+  margin-bottom: 1rem;
 }
 
 .card-bag {
@@ -64,6 +64,11 @@
 
 .card-text a {
   text-decoration: none;
+  background-color: #fff;
+}
+
+.card-text .badge {
+  background-color: #fff;
 }
 
 .card-body {
@@ -76,10 +81,12 @@
 
 .card-end a {
   text-decoration: none;
+  background-color: #fff;
 }
 
 .card-end span {
   font-size: 14px;
+  background-color: #fff;
 }
 
 .card-end p {
@@ -87,8 +94,25 @@
   font-size: 12px;
 }
 
-.card-end a .btn {
+.card-end .btn {
   background-color: #d6d6d7;
+}
+
+.card-end-button {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-end-button p {
+  background-color: #fff;
 }
 
 .navbar-container {
